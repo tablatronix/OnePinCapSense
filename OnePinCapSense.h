@@ -56,9 +56,9 @@ class OnePinCapSense
    // variables
    uint8_t bitmask ;               // bitmask to access pin
    uint8_t port ;                  // port register
-   volatile uint8_t *ddr ;         // data direction register
-   volatile uint8_t *pinIn ;       //input data
-   volatile uint8_t *pinOut  ;     //output data 
+   volatile uint32_t *ddr ;         // data direction register
+   volatile uint32_t *pinIn ;       //input data
+   volatile uint32_t *pinOut  ;     //output data 
    int cycles ;                    // maximum number of cycles to allow
                                    // pin to charge up.
                                   
