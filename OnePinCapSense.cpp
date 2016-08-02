@@ -32,9 +32,9 @@ OnePinCapSense::OnePinCapSense()   // default constructor
 
    bitmask = 0 ;        // bitmask to access pin
    port    = 0;         // port register
-   *ddr    = NULL ;     // data direction register
-   *pinIn  = NULL ;     //input data
-   *pinOut = NULL ;     //output data 
+   // *ddr    = NULL ;     // data direction register
+   // *pinIn  = NULL ;     //input data
+   // *pinOut = NULL ;     //output data 
    cycles  = 16000 ;    // number of sample cycles    
    
 }
